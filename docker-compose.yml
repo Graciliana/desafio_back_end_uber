@@ -17,7 +17,7 @@ services:
     container_name: geodjango_db
     restart: always
     environment:
-      POSTGRES_DB: geodjango2
+      POSTGRES_DB: geodjango
       POSTGRES_USER: geo_user
       POSTGRES_PASSWORD: geo_pass
     volumes:
